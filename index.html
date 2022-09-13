@@ -8,8 +8,17 @@
     
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="load()">
     
-    
+    <button type="button" onclick="button()">Clique aqui</button>
+    <h3 id="thank" onclick="redirect()"></h3>
+    <p id="mousemove" onmouseover="change(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="change(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+
+    <select onchange="funChange(this)">
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+    </select>
 </body>
 </html>

@@ -67,5 +67,42 @@ for(count = 0; count <= 5; count++) {
 */
 
 //Data
+/*
 var d = new Date();
 console.log(d.getHours());
+*/
+
+/*
+function soma (n1, n2) {
+    return n1 + n2
+}
+console.log(soma(5, 10))
+*/
+
+function load() {
+    alert("página carregada!")
+}
+
+function button() {
+    document.getElementById("thank").innerHTML = "Obrigado por clicar"
+    //alert("obrigado por clicar")
+}
+
+function redirect() {
+    window.open("https://github.com/pablo-rod");
+}
+
+function change(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+    elemento.innerHTML = "Obrigado por passar o mouse"
+    //alert("trocar o texto");
+}
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+    elemento.innerHTML = "passe o mouse aqui"
+    //alert("trocar o texto");
+}
+
+function funChange(elemento) {
+    console.log(elemento.value)
+}
